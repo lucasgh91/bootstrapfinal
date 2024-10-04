@@ -1,0 +1,82 @@
+header {
+  background-color: black;
+  color: white;
+  border: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 25px;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: white;
+  color: black;
+}
+
+section {
+  padding: 50px 0 50px 0;
+}
+
+div#inicio {
+  background-color: black;
+  height: 300px;
+  overflow: hidden;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+
+section#filmes {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.305);
+}
+
+.card-body .btn {
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+form textarea {
+  resize: none;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.row div {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 70px;
+}
+
+footer h5 {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  line-height: 70px;
+  margin: 0;
+}
